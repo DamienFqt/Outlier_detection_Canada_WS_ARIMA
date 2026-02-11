@@ -37,3 +37,8 @@ climate data from Montreal
 
 # Résumé 
 Cet article décrit et met en œuvre une méthode pour la détection d’outliers dans le contexte spécifique des séries temporelles, en s’appuyant sur la taxonomie proposée par Blazquez-Garcia et al. (2021). D’abord, l’étude présente brièvement la taxonomie mentionnée, puis se concentre sur la détection d’anomalies dans les données de température quotidienne à Montréal, Canada. L’objectif est à la fois d’implémenter une technique moderne de détection d’outliers et de réaliser cette analyse sur des données avec des implications importantes : celles liées au changement climatique. Pour cela, nous utilisons un jeu de données historique sur le climat canadien. Cette base de données contient des informations quotidiennes sur les températures moyennes et les précipitations pour 13 stations météorologiques canadiennes de 1940 à 2019. La méthode de détection est réalisée en utilisant un modèle AutoRegressive Integrated Moving Average (ARIMA) avec une fenêtre glissante. Elle détecte un nombre croissant d’outliers au fil du temps, ce qui suggère, dans une certaine mesure, l’existence d’un réchauffement climatique. Cet article est le premier à combiner une méthode peu utilisée avec des données climatiques de Montréal.
+
+# Sources
+Disponibles dans la section "References" de l'article.
+## Data 
+`https://www.kaggle.com/datasets/aturner374/eighty-years-of-canadian-climate-data/Canadian_climate_history.csv`
