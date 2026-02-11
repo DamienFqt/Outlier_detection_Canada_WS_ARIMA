@@ -10,7 +10,7 @@ Il a été soumis (en anglais) au journal __International Journal of Climatology
 
 # Contenu du repo
 ### Dossier `rendus`
-- L'[article.pdf](docs/Article%20-%20Detecting%20Outliers%20in%20Time%20Series%20Using%20Window-Sliding.pdf) soumis au journal 
+- L'[article.pdf](rendus/Article%20-%20Detecting%20Outliers%20in%20Time%20Series%20Using%20Window-Sliding.pdf) soumis au journal 
 - Le [graphique.png](rendus/outliers.png) illustrant la comparaison entre un ARIMA global et la méthode par fenêtres glissantes
 ### Dossier `src`
 - Le code `preprocessing.py` permettant de télécharger les données depuis `Kaggle` et les traiter
